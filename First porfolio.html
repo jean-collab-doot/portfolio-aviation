@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./index_files/all.min.css">
+  <link rel="stylesheet" href="./index_files/style.css">
+<title> Portfolio Website</title>
+</head><body>
+<header>
+  <a href="http://127.0.0.1:5500/index.html#" class="logo"> Jean Louis</a>  
+ 
+ <nav>
+    <a href="http://127.0.0.1:5500/index.html#" class="active"> Home </a>
+    <a href="http://127.0.0.1:5500/index.html#">services</a>
+    <a href="http://127.0.0.1:5500/index.html#">Aviation</a>
+    <a href="http://127.0.0.1:5500/index.html#">Education</a>
+    <a href="http://127.0.0.1:5500/index.html#">Experience</a>
+    <a href="http://127.0.0.1:5500/index.html#">Contact</a>
+ </nav> 
+</header>   
+<section class="home">
+    <div class="home-img">
+        <img src="./index_files/ChatGPT Image 22 juin 2025, 11_51_04.png" alt="">
+    <div class="home">
+     <h1> Hi,It's <span> Jean Louis</span></h1>
+    <h3 class="Typing-text"> I'm a <span></span></h3>    
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, commodi in impedit ab ex aliquid, facilis esse ad nulla exercitationem distinctio neque cum ipsam porro debitis nesciunt sapiente unde at.</p>
+<div class="social-icons">
+<a href="http://127.0.0.1:5500/index.html#"><i class="fa-brands fa-instagram "></i></a>
+<a href="http://127.0.0.1:5500/index.html#"><i class="fa-brands fa-github"></i></a>
+<a href="http://127.0.0.1:5500/index.html#"><i class="fa-brands fa-x-twitter"></i></a>
+<a href="http://127.0.0.1:5500/index.html#"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<a href="http://127.0.0.1:5500/index.html#" class=""> Fly with me</a>
+</div>
+</div></section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
